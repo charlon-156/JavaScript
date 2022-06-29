@@ -14,12 +14,18 @@
 </head>
 <body>
     <section>
+        
         <label>Nome</label>
         <input type="text" name="nom" id="inp-nom"required maxlength="50">
         <label>Altura</label>
         <input type="number" name="alt" id="inp-alt" required min="0.7" max="3">
         <label>Peso</label>
         <input type="number" name="pes" id="inp-pes" required min="20" max="1000">
+        <label>Feminino</label>
+        <input type="radio" name="sex" id="inp-sex" value="femi">
+        <label>Masculino</label>
+        <input type="radio" name="sex" id="inp-sex" value="masc">
+        
         <input type="button" value="Enviar" id="btn">
 
         <p id="res">Resultado: </p>
