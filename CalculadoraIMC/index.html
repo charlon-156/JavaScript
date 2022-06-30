@@ -2,15 +2,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Charlon Fernandes Monteiro">
     <style> 
         input{
         display: block;}
     </style>
 
-    <title>Calculadora IMC</title>
+    <title id="title">Calculadora IMC</title>
 </head>
 <body>
     <section>
@@ -22,9 +20,9 @@
         <label>Peso</label>
         <input type="number" name="pes" id="inp-pes" required min="20" max="1000">
         <label>Feminino</label>
-        <input type="radio" name="sex" id="inp-sex" value="femi">
+        <input type="radio" name="sex" id="inp-sex">
         <label>Masculino</label>
-        <input type="radio" name="sex" id="inp-sex" value="masc">
+        <input type="radio" name="sex" id="inp-sex">
         
         <input type="button" value="Enviar" id="btn">
 
@@ -32,6 +30,5 @@
     </section>
 
     <script src="script.js"></script>
-
 </body>
 </html>
