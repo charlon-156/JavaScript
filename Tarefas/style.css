@@ -1,0 +1,10 @@
+li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+li {
+    display: inline-block;
+}
