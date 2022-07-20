@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Charlon F. Monteiro">
+    <meta name="objective" content="Reescrita da calculadora">
+
+    <title id="title">Calculadora JS</title>
+    
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    
+    <section id="header">
+        
+        <p id="screen"></p>
+        <div id="keyboard">
+    
+            <button class="btn_cm" onclick="screenPrint(1)">1</button>
+            <button class="btn_cm" onclick="screenPrint(1)">1</button>
+            <button class="btn_cm" onclick="screenPrint(2)">2</button>
+            <button class="btn_cm" onclick="screenPrint(3)">3</button>
+            <button class="btn_cm" onclick="screenPrint('*')">*</button>
+    
+            <button class="btn_cm" onclick="screenPrint(4)">4</button>
+            <button class="btn_cm" onclick="screenPrint(5)">5</button> 
+            <button class="btn_cm" onclick="screenPrint(6)">6</button>
+            <button class="btn_cm"  onclick="screenPrint('+')">+</button>
+            
+            <button class="btn_cm" onclick="screenPrint(7)">7</button>
+            <button class="btn_cm" onclick="screenPrint(8)">8</button>
+            <button class="btn_cm" onclick="screenPrint(9)">9</button>
+            <button class="btn_cm" onclick="screenPrint('-')">-</button>
+    
+            <button class="btn_cm" onclick="screenPrint('.')">.</button>
+            <button class="btn_cm" onclick="screenPrint(0)">0</button>
+            <button class="btn_cm" id="respost">=</button>
+            <button class="btn_cm" onclick="screenPrint('/')">/</button>
+
+            <button class="btn_cm">Clear</button>
+        </div>
+
+        <p class="rights"> todos os direitos reservados <strong>&COPY;</strong><i>Charlon Fernandes</i></p>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
