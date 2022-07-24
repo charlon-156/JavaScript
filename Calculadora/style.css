@@ -1,0 +1,58 @@
+#header{
+    
+    
+    width: 240px;
+    height: 360px;
+    background-color: yellow;
+    border: solid 4px;
+    padding: 20px;
+    border-radius: 6px; 
+    margin-bottom: 20px;
+}
+
+#screen{
+    background-color: rgb(255, 255, 255);
+    padding: 25px 10px 10px 10px;
+    width: 206px;
+    height: 36px;
+    border-radius: 3px;
+    border: 2px black solid;
+    font-size: 14pt;
+}
+
+#keyboard{
+    display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+#aux{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+button{
+    padding: 8px 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 18pt;
+    font-family: Georgia, 'Times New Roman';
+    width: 56px;
+    background-color: white;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+.clear{
+    width: 235px;
+    text-align: center;
+}
+
+.rights{
+    font-size: 10pt;
+    color: gray;
+    cursor: pointer;
+}
