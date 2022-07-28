@@ -9,6 +9,10 @@ class Animal{
         this.#name = name
     }
 
+    apresentation(){
+        console.log(`Helloo, my name is ${this.getName()}`)
+    }
+
     move(){
         console.log(`${this.name} is moving`)
     }
