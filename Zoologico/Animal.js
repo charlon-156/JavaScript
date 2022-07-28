@@ -43,12 +43,16 @@ class Animal{
         return this.#peso
     }
 
-    setPeso(){
-        this.#peso;
+    setPeso(peso){
+        this.#peso = peso
     }
 
     getYear() {
         return this.#year
+    }
+
+    setYear(year) {
+        this.#year = year
     }
     
 }
