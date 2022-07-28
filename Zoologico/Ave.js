@@ -4,18 +4,19 @@ class Bird extends Animal {
 
     //Construtor da classe Bird
     constructor (name, roastSize){
-
+        super(nome)
+        this.#roastSize = roastSize
     }
 
     sing() {
-        console.log(`${this.getName} is singing`)
+        console.log(`${this.getName()} is singing`)
     }
 
     getRoastSize(){
-        return this.#roastSize;
+        return this.#roastSize
     }
 
     setRoastSize(roastSize){
-        this.#roastSize = roastSize;
+        this.#roastSize = roastSize
     }
 }
